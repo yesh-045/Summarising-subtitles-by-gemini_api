@@ -73,6 +73,22 @@ def summarize_file(file_path):
                 print(summary)
     except FileNotFoundError:
         print("Error: File not found")
+def ask_questions(summary):
+    """
+    Allows the user to ask questions about the summary and receive responses.
+
+    Args:
+        summary: A string representing the summarized text.
+
+    Returns:
+        None
+    """
+    while True:
+        question = input("\nAsk a question about the summary (type 'exit' to end): ")
+        if question.lower() == 'exit':
+            break
+        response = summarize_text(question)
+        print("Response:", response)
 
 file_path = "file.srt"  
 summarize_file(file_path)
