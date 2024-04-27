@@ -10,7 +10,7 @@ Subtitle Summarizer is a Python application that summarizes the content of subti
 
 ## Installation
 1. **Clone the repository:**
-git clone 
+git clone https://github.com/yesh-045/Summarising-subtitles-by-gemini_api.git
 
 ## Usage
 1. Ensure you have a valid API key for Google's Generative AI.
