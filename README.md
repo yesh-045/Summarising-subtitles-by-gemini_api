@@ -14,7 +14,7 @@ git clone https://github.com/yesh-045/Summarising-subtitles-by-gemini_api.git
 
 ## Usage
 1. Ensure you have a valid API key for Google's Generative AI.
-2. Place your subtitle file (in `.srt` format) in the project directory.
+2. Place your subtitle file (in `.srt` format) in the project directory, for sample i've used(file.srt).
 3. Run the script `main.py` and follow the instructions.
 
 ## Configuration
